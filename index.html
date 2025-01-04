@@ -86,6 +86,19 @@
     .tab-content.active {
       display: block;
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ddd;
+    }
     .button-container {
       display: flex;
       gap: 10px;
@@ -135,15 +148,39 @@
       </div>
       <div id="vinyl" class="tab-content active">
         <p>Vinyl flooring is a durable, cost-effective solution for homes, offices, and gyms. Available in a variety of designs, it is easy to install and maintain.</p>
+        <h3>Our Works</h3>
+        <div class="gallery">
+          <img src="/photos/vinyl/1.jpg" alt="Vinyl Flooring 1">
+          <img src="/photos/vinyl/2.jpg" alt="Vinyl Flooring 2">
+        </div>
       </div>
       <div id="carpets" class="tab-content">
         <p>We provide high-quality carpets ideal for prayer halls and mosques. Our carpets come in a range of styles and sizes to suit your needs.</p>
+        <h3>Our Works</h3>
+        <div class="gallery">
+          <img src="/photos/carpets/1.jpg" alt="Carpet 1">
+          <img src="/photos/carpets/2.jpg" alt="Carpet 2">
+          <img src="/photos/carpets/3.jpg" alt="Carpet 3">
+        </div>
       </div>
       <div id="grass" class="tab-content">
         <p>Artificial grass is perfect for landscaping and outdoor spaces. It's low-maintenance, eco-friendly, and adds a touch of green to any area.</p>
+        <h3>Our Works</h3>
+        <div class="gallery">
+          <img src="/photos/grass/1.jpg" alt="Artificial Grass 1">
+          <img src="/photos/grass/2.jpg" alt="Artificial Grass 2">
+          <img src="/photos/grass/3.jpg" alt="Artificial Grass 3">
+        </div>
       </div>
       <div id="blinds" class="tab-content">
         <p>Zebra blinds are a modern, stylish solution for homes and offices. They offer excellent light control and privacy while enhancing the aesthetic appeal.</p>
+        <h3>Our Works</h3>
+        <div class="gallery">
+          <img src="/photos/blinds/1.jpg" alt="Zebra Blinds 1">
+          <img src="/photos/blinds/2.jpg" alt="Zebra Blinds 2">
+          <img src="/photos/blinds/3.jpg" alt="Zebra Blinds 3">
+          <img src="/photos/blinds/4.jpg" alt="Zebra Blinds 4">
+        </div>
       </div>
     </section>
     <section>
@@ -151,7 +188,6 @@
       <p>Address: ASK Traders, Haritha Nagar, Kakkottukav, Kodunthirapully, Palakkad, Kerala-678004</p>
       <p>Service Areas: All over Kerala and Tamilnadu</p>
       <div class="button-container">
-<!--         <a href="https://maps.app.goo.gl" target="_blank" class="button">Location</a> -->
         <a href="https://wa.me/919847243814" target="_blank" class="button" style="background-color: #25d366;">WhatsApp</a>
         <a href="tel:+919847243814" class="button">Call Us</a>
       </div>
